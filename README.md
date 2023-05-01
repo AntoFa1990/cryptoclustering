@@ -29,4 +29,7 @@ This project uses the K-means clustering machine learning technique to predict i
 
 This project analyzed the impact of using fewer features on clustering crypto data using K-means. Comparing the clustering results of the original data and the PCA adusted data suggested fewer features were more accurate. In the original data clustering, the elbow curve indicated that the optimal value for K was 4, resulting in 4 clusters. However, there were two clusters that only contained one data point each, and the other two clusters were not clearly separated. By implementing PCA and using the optimal value for K of 2, the resulting plot was more accurate and precise in clustering the data.
 
-<img width="350" alt="image" src="images/Elbow_Original.png">
+<img width="450" alt="image" src="images/Elbow_Original.png">
+<img width="450" alt="image" src="images/Elbow_PCA.png">
+<img width="450" alt="image" src="images/price_change.png">
+<img width="450" alt="image" src="images/scatter.png">
